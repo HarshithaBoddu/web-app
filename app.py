@@ -16,6 +16,10 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route('/department')
+def home():
+    return render_template("departments.html")
+
 @app.route('/login', methods = ['POST'] )
 def login():
     age = request.form['age']
@@ -57,10 +61,12 @@ def login():
         ans="You are at a higher risk of getting affected.......sorry!! your appointment cannot be booked"
     elif(y_pred==[1]):
         ans="You are at a lower risk of getting affected........You can go ahead and book the appointment"
-        webbrowser.open("http://localhost/excite/medino/departments.html");
+        return redirect(url_for('department'))
+       # webbrowser.open("http://localhost/excite/medino/departments.html");
     else:
         ans="You are at a moderate risk of getting affected.....You can go ahead and book the appointment"
-        webbrowser.open("http://localhost/excite/medino/departments.html");
+        return redirect(url_for('department'))
+        #webbrowser.open("http://localhost/excite/medino/departments.html");
 
     return render_template("index.html", showcase = ans)
      
