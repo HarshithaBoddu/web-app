@@ -4,3 +4,4 @@ gunicorn
 Flask-Uploads
 requests
 Response
+sklearn
