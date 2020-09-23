@@ -17,7 +17,7 @@ def home():
     return render_template("index.html")
 
 @app.route('/department')
-def dept():
+def department():
     return render_template("departments.html")
 
 @app.route('/login', methods = ['POST'] )
