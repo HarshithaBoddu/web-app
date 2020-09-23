@@ -5,3 +5,7 @@ Flask-Uploads
 requests
 os
 Response
+webbrowser
+render_template
+request
+pickle
