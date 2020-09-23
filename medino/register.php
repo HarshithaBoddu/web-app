@@ -25,6 +25,6 @@ $user["pass"]=$upass;
 $user["phone"]=$uphone;
 $info[]=$user;
 echo file_put_contents("website.json",json_encode($info));
-header("location:http://localhost/excite/medino/elements.html");
+header("location:https://care-4-you.herokuapp.com/medino/elements.html");
 
 ?>
