@@ -1,0 +1,7 @@
+Flask
+uwsgi
+gunicorn
+Flask-Uploads
+requests
+os
+Response
