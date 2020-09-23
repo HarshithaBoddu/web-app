@@ -11,7 +11,9 @@
     <title>Medino</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../medino/assets/images/logo/favicon.png" type="image/x-icon">
+<!--     <link rel="shortcut icon" href="../medino/assets/images/logo/favicon.png" type="image/x-icon"> -->
+	<link rel="shortcut icon" href="{{ url_for('static', filename = 'img/favicon.png'}}" type="image/x-icon">
+<!-- 	"{{ url_for('static', filename = 'js/vendor/jquery-2.2.4.min.js') }}" -->
 
     <!-- CSS Files -->
 <!--     <link rel="stylesheet" href="../medino/assets/css/animate-3.7.0.css">
@@ -551,14 +553,21 @@
 
 
     <!-- Javascript -->
-    <script src="medino/assets/js/vendor/jquery-2.2.4.min.js"></script>
+<!--     <script src="medino/assets/js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="medino/assets/js/vendor/bootstrap-4.1.3.min.js"></script>
     <script src="medino/assets/js/vendor/wow.min.js"></script>
     <script src="medino/assets/js/vendor/owl-carousel.min.js"></script>
     <script src="medino/assets/js/vendor/jquery.datetimepicker.full.min.js"></script>
     <script src="medino/assets/js/vendor/jquery.nice-select.min.js"></script>
-    <script src="medino/assets/js/vendor/superfish.min.js"></script>
+    <script src="medino/assets/js/vendor/superfish.min.js"></script> -->
 <!--     <script src="medino/assets/js/main.js"></script> -->
+		
+		<link rel="scripts" href="{{ url_for('static', filename = 'js/vendor/jquery-2.2.4.min.js') }}">
+		<link rel="scripts" href="{{ url_for('static', filename = 'js/vendor/bootstrap-4.1.3.min.js') }}">
+		<link rel="scripts" href="{{ url_for('static', filename = 'js/vendor/wow.min.js') }}">
+		<link rel="scripts" href="{{ url_for('static', filename = 'js/vendor/jquery.datetimepicker.full.min.js') }}">
+		<link rel="scripts" href="{{ url_for('static', filename = 'js/vendor/jquery.datetimepicker.full.min.js') }}">
+		<link rel="scripts" href="{{ url_for('static', filename = 'js/vendor/superfish.min.js') }}">
 		<link rel="scripts" href="{{ url_for('static', filename = 'js/main.js') }}">
 
 </body>
