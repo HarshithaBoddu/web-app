@@ -49,7 +49,7 @@ if($valid)
 { //echo "Welcome ".$uname;
   //echo "Thank you for showing interest in this Noble cause";
   //echo "You will be contacted whenever there is a requirement";
-  header("Location:https://care-4-you.herokuapp.com/index.html");
+  header("Location:https://care-4-you.herokuapp.com/medino/index.html");
 }
 else if($data["name"]==$uname && $data["pass"]!=$upass)
 {
