@@ -3,7 +3,6 @@ uwsgi
 gunicorn
 Flask-Uploads
 requests
-os
 Response
 webbrowser
 render_template
