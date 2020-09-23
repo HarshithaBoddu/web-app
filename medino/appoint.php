@@ -44,10 +44,10 @@ else
 }
 }
 if ($valid==true && $flag == false)
-header("Location:http://localhost/excite/medino/alreadybooked.html");
+header("Location:https://care-4-you.herokuapp.com/medino/alreadybooked.html");
 //echo "</br>Your appointment is already booked.</br> please check your mail for the date and timimg";
 else if($valid==false && $flag == true)
-header("Location:http://localhost/excite/medino/slotbooked.html");
+header("Location:https://care-4-you.herokuapp.com/medino/slotbooked.html");
 //echo " </br> This slot is already booked. </br> Try choosing some other slot.";
 else
 {$info = json_decode(file_get_contents("appoint.json"),true);
@@ -61,7 +61,7 @@ $user["date"]=$udate;
 $user["time"]=$utime;
 $info[]=$user; 
 echo file_put_contents("appoint.json",json_encode($info));
-header("Location:http://localhost/excite/medino/appointsuccess.html");
+header("Location:https://care-4-you.herokuapp.com/medino/appointsuccess.html");
 //echo "</br>Your appointment is booked successful!!";
 //echo "</br>You will be notified about the timing and date of the appointment via mail";
 }
