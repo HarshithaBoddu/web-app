@@ -4,7 +4,6 @@ gunicorn
 Flask-Uploads
 requests
 Response
-webbrowser
 render_template
 request
 pickle
