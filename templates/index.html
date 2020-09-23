@@ -6,7 +6,7 @@ background-image:linear-gradient(grey,yellow);
 
 </style>
 <body>
-<form action = "http://localhost:5000/login" method = "post">
+<form action = "{{ url_for('login') }}" method = "post">
 <p> Enter Age </p>
 <p> <input type = "text" name = "age"/></p>
 <label for="gender"> </br>Choose the gender</label>
