@@ -62,11 +62,11 @@ def login():
     elif(y_pred==[1]):
         ans="You are at a lower risk of getting affected........You can go ahead and book the appointment"
         #return redirect(url_for('department'))
-        webbrowser.open("http://localhost/excite/medino/departments.html");
+        webbrowser.open("http://care-4-you.herokuapp.com/medino/departments.html");
     else:
         ans="You are at a moderate risk of getting affected.....You can go ahead and book the appointment"
         #return redirect(url_for('department'))
-        webbrowser.open("https://localhost/excite/medino/departments.html");
+        webbrowser.open("http://care-4-you.herokuapp.com/medino/departments.html");
 
     return render_template("index.html", showcase = ans)
      
