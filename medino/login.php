@@ -49,7 +49,7 @@ if($valid)
 { //echo "Welcome ".$uname;
   //echo "Thank you for showing interest in this Noble cause";
   //echo "You will be contacted whenever there is a requirement";
-  header("Location:http://localhost/excite/medino/index.html");
+  header("Location:/index.html");
 }
 else if($data["name"]==$uname && $data["pass"]!=$upass)
 {
