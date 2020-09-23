@@ -4,7 +4,7 @@ Created on Fri May 29 06:19:58 2020
 
 @author: B RAVI KUMAR
 """
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 import pickle
 import webbrowser
 
