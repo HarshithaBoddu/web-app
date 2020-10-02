@@ -48,7 +48,7 @@ Coming to the pharmacists, they will be notified about the order placed by the u
 There is no requirement of physical devices in order to predict the risk levels, it's quite feasible. The doctors are ready to use the product keeping in mind the seriousness of the situation and rapid spreading of the virus.
 
 - Technology required are : Machine learning algorithms :  Random Forest Classifier.
-- Currently we are working on the localhost using Visual Studio Code and Anaconda Navigator.
+- Currently we have hosted our website using a free shared website hosting service (heroku). We are sure to host our website on a dedicated hosting service in future, as we progress.
 - Programming language used : HTML, CSS, Python, JavaScript, and PHP
 - Domain and host 
 - File transfer protocol
