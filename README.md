@@ -61,7 +61,7 @@ We first plan to test it with small local clinics and get the feedback for impro
 
 We hope that our solution will help to reduce the spread of coronavirus as much as possible. 
 
-[Click here] (https://care-4-you.herokuapp.com/medino/index1.html) to visit the website. 
+[Click here](https://care-4-you.herokuapp.com/medino/index1.html) to visit the website. 
 
 
 
