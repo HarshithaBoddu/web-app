@@ -15,7 +15,7 @@ We agree that Virtual treatments solve the problem, But not completely. In cases
 
 Our idea is a web application named **CARE4YOU** which consists of a predictor along with an online appointment booking system and a Medicine Checker. 
 
-The tool covid predictor predicts the risk level of a person being affected by covid-19, taking into consideration some of the factors like cold, cough, sore throat etc. The risk level will be either predicted as low, moderate or high. The patients with risk level low and moderate will be able to book an appointment with their doctor but the patients with the high level will not be able to book an appointment but will be guided to get tested at the nearest covid-19 test centres .
+The tool **Covid Predictor** predicts the **Risk level of a person being affected by Covid-19**, taking into consideration some of the factors like Cold, Cough, Sore Throat etc. The risk level will be either predicted as **Low, Moderate or High**. The patients with risk level low and moderate will be able to book an appointment with their doctor but the patients with the high level will not be able to book an appointment but will be Guided to get tested at the nearest Covid-19 Test Centres .
 
 To build the covid-19 predicted tool we have used a Machine Learning algorithm, **Random Forest algorithm** which gave us an **accuracy of 98%**.
 
@@ -29,22 +29,26 @@ The inputs that the user is required to give are:
 * The search radius. 
 
 After the searching is done, they will be displayed with a list of pharmacies who have the medicines available in the required quantity, we can choose one of them and just go and collect the package and pay the amount. 
-This solution solves the problems of crowding at the medical shops in turn keeping us and others also safe from the spread of the Virus. We need not stand in long queues and don’t have to go to different places in search of the medicines.
 
-### MODULES : Doctors, Pharmacists and Common People
+This solution solves the problems of Crowding at the Medical Shops in turn keeping us and others also safe from the spread of the Virus. We need not stand in long queues and don’t have to go to different places in search of the medicines.
 
-The initial step after opening the website, for any user, is to get registered with us. After which the user can login with a unique username and password. 
+#### MODULES : Doctors, Pharmacists and Common People:
+The initial step after opening the website, for any user, is to get Registered with us. After which the user can login with a unique username and password. 
+
 If the user is a patient or a customer who would want to use the facilities, he/she can go to the Appointment page if they wish to book an appointment where they must take a preliminary COVID test before they proceed to book an appointment or they could use the medicine checker to search for the medicines in the required quantity at the nearby pharmacies. However, they could use both the facilities as well.
+
 In case the user of the website is a Doctor or a Pharmacist , they will have to contact us to get registered onto the web application. 
+
 Using our application, the Doctors can manage their appointment system and know the details of the patient who wants to book an appointment.
+
 Coming to the pharmacists, they will be notified about the order placed by the user.
 
 ### INSTALLATIONS OR USAGE REQUIREMENTS :
 
 There is no requirement of physical devices in order to predict the risk levels, it's quite feasible. The doctors are ready to use the product keeping in mind the seriousness of the situation and rapid spreading of the virus.
 
-- Technology required are : Machine learning algorithms :  Random forest classifier.
-- Currently we are working on the localhost using visual studio code and anaconda navigator.
+- Technology required are : Machine learning algorithms :  Random Forest Classifier.
+- Currently we are working on the localhost using Visual Studio Code and Anaconda Navigator.
 - Programming language used : HTML, CSS, Python, JavaScript, and PHP
 - Domain and host 
 - File transfer protocol
@@ -54,6 +58,7 @@ There is no requirement of physical devices in order to predict the risk levels,
 ### SCOPE OF IMPLEMENTATION :
 
 The Direct users of the appointment booking system with the COVID-19 risk level predictor, are the doctors and the patients will be the indirect users of the product. Since the doctors are using it , their patients have to use it. 
+
 The medicine checker will be used by the patients after visiting the doctors, it can also be used by the common people who take medicines on a regular basis. 
 We first plan to test it with small local clinics and get the feedback for improvement and then launch it in the bigger market.
 
@@ -65,9 +70,9 @@ We first plan to test it with small local clinics and get the feedback for impro
 
 ### CONCLUSION:
 
-We hope that our solution will help to reduce the spread of coronavirus as much as possible. 
+We hope that our Solution will help to reduce the spread of CoronaVirus as much as possible. 
 
-[Click here](https://care-4-you.herokuapp.com/medino/index1.html) to visit the website. 
+[Click here](https://care-4-you.herokuapp.com/medino/index1.html) to visit the Website. 
 
 
 
