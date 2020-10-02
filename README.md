@@ -1,8 +1,8 @@
- # INTRODUCTION: 
+ ## INTRODUCTION: 
 
 The main objective of our product is to reduce the spread of coronavirus as much as possible. Our product mainly consists of Predictor with an Online Appointment booking System and a tool called Medicine Checker.
 
-# EXISTING SYSTEM: 
+## EXISTING SYSTEM: 
 
 In the existing System, there is only an online Appointment Booking System available, in which anyone can book an appointment to meet the doctor. But at this time of pandemic it is not at all safe to continue with this existing system.
 The frontline workers have been working selflessly though they are the most indispensable and the vulnerable section of the society. We have even seen cases where the doctors are being affected by COVID-19.
@@ -25,7 +25,7 @@ The inputs that the user is required to give are:
 After the searching is done, they will be displayed with a list of pharmacies who have the medicines available in the required quantity, we can choose one of them and just go and collect the package and pay the amount. 
 This solution solves the problems of crowding at the medical shops in turn keeping us and others also safe from the spread of the Virus. We need not stand in long queues and don’t have to go to different places in search of the medicines.
 
-MODULES : Doctors, Pharmacists and Common People
+## MODULES : Doctors, Pharmacists and Common People
 
 The initial step after opening the website, for any user, is to get registered with us. After which the user can login with a unique username and password. 
 If the user is a patient or a customer who would want to use the facilities, he/she can go to the Appointment page if they wish to book an appointment where they must take a preliminary COVID test before they proceed to book an appointment or they could use the medicine checker to search for the medicines in the required quantity at the nearby pharmacies. However, they could use both the facilities as well.
@@ -33,7 +33,7 @@ In case the user of the website is a Doctor or a Pharmacist , they will have to 
 Using our application, the Doctors can manage their appointment system and know the details of the patient who wants to book an appointment.
 Coming to the pharmacists, they will be notified about the order placed by the user.
 
-INSTALLATIONS OR USAGE REQUIREMENTS :
+## INSTALLATIONS OR USAGE REQUIREMENTS :
 
 There is no requirement of physical devices in order to predict the risk levels, it's quite feasible. The doctors are ready to use the product keeping in mind the seriousness of the situation and rapid spreading of the virus.
 
@@ -45,19 +45,19 @@ There is no requirement of physical devices in order to predict the risk levels,
 - Software :  Visual studio code,  Anaconda Navigator – jupyter notebook and Spyder
 - MySQL – databases
 
-SCOPE OF IMPLEMENTATION :
+## SCOPE OF IMPLEMENTATION :
 
 The Direct users of the appointment booking system with the COVID-19 risk level predictor, are the doctors and the patients will be the indirect users of the product. Since the doctors are using it , their patients have to use it. 
 The medicine checker will be used by the patients after visiting the doctors, it can also be used by the common people who take medicines on a regular basis. 
 We first plan to test it with small local clinics and get the feedback for improvement and then launch it in the bigger market.
 
-CONTRIBUTORS: 
+## CONTRIBUTORS: 
 
 1.Harshitha Boddu
 
 2.Grandhi Srivalli Saranya
 
-CONCLUSION:
+## CONCLUSION:
 
 We hope that our solution will help to reduce the spread of coronavirus as much as possible. 
 
