@@ -62,7 +62,7 @@ The Direct users of the appointment booking system with the COVID-19 risk level 
 The medicine checker will be used by the patients after visiting the doctors, it can also be used by the common people who take medicines on a regular basis. 
 We first plan to test it with small local clinics and get the feedback for improvement and then launch it in the bigger market.
 
-### There are 3branches namely:
+### There are 3 branches namely:
 
 - **Master** - In Master/Medino , We have all the HTML, CSS and PHP files.
 - **Flask** - In Flask branch, We have the python code for COVID- Predictor which includes a PYTHON file , a HTML file and 2 PICKEL files.
