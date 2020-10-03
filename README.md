@@ -64,9 +64,9 @@ We first plan to test it with small local clinics and get the feedback for impro
 
 ### There are 3branches namely:
 
-- Master - In Master/Medino , We have all the HTML, CSS and PHP files.
-- Flask - In Flask branch, We have the python code for COVID- Predictor which includes a PYTHON file , a HTML file and 2 PICKEL files.
-- Classification - In Classification branch, We have the Machine Learning code i.e, the Random Classifier code for the Prediction of Risk Level.
+- **Master** - In Master/Medino , We have all the HTML, CSS and PHP files.
+- **Flask** - In Flask branch, We have the python code for COVID- Predictor which includes a PYTHON file , a HTML file and 2 PICKEL files.
+- **Classification** - In Classification branch, We have the Machine Learning code i.e, the Random Classifier code for the Prediction of Risk Level.
 
 ### CONTRIBUTORS: 
 
